@@ -7,7 +7,7 @@ void secretFunc()
 int vuln(){
     char array[200];
     printf("Enter text:");
-    gets(array);
+    fgets(array, sizeof(array), stdin);
     return 0;
 }
 int main(int argc, char*argv[]){
