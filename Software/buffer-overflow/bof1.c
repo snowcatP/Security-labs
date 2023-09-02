@@ -8,6 +8,7 @@ int vuln(){
     char array[200];
     printf("Enter text:");
     gets(array);
+    printf(array);
     return 0;
 }
 int main(int argc, char*argv[]){
